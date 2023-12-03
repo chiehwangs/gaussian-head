@@ -1,4 +1,5 @@
 # GaussianHead: Impressive 3D Gaussian-based Head Avatars with Dynamic Hybrid Neural Field
+### [Paper]() | [Project Page]() 
 Code will arrive after all information is submitted...
 ![](assets/overview.png)
 
@@ -23,7 +24,7 @@ GaussianHead
 Click [here]() to download the ID1 pre-trained model to quickly view the results, and store the training model in `./GaussianHead/Deformable-GaussianHead/output/id1`
 
 ## Rendering
-After downloading the pre-trained model, cd to './GaussianHead/Deformable-GaussianHead' and run next command, output results will save in `./GaussianHead/Deformable-GaussianHead/output/id1/train`
+After downloading the pre-trained model, cd to `./GaussianHead/Deformable-GaussianHead` and run next command, output results will save in `./GaussianHead/Deformable-GaussianHead/output/id1/train`
 ```
 python render.py -m path/to/pre-trained/model
 ```
