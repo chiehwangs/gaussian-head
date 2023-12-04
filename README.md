@@ -7,7 +7,7 @@ Code will arrive after everything is ready...
 The [geoopt](https://github.com/geoopt/geoopt) library is necessary for the Riemannian ADAM optimizer. Please refer to [here](https://github.com/geoopt/geoopt) to download it, and please consider citing '*Riemannian Adaptive Optimization Methods*' in ICLR2019 if used.
 
 ## Preparing dataset
-All our data is sourced from publicly available datasets [NeRFBlendShape](https://drive.google.com/drive/folders/1OiUvo7vHekVpy67Nuxnh3EuJQo7hlSq1?usp=sharing). Click here to download our modified [ID1]() data for rendering, and store it in the following directory:
+Click [here]() to download our modified ID1 data for rendering, and store it in the following directory. All our data is sourced from publicly available datasets [NeRFBlendShape](https://drive.google.com/drive/folders/1OiUvo7vHekVpy67Nuxnh3EuJQo7hlSq1?usp=sharing). 
 
 ```
 GaussianHead
