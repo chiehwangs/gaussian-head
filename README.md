@@ -1,6 +1,6 @@
 # GaussianHead: Impressive 3D Gaussian-based Head Avatars with Dynamic Hybrid Neural Field
 ### [Paper]() | [Project Page]() 
-Code will arrive after all information is submitted...
+Code will arrive after everything is ready...
 ![](assets/overview.png)
 
 ## Riemannian ADAM
