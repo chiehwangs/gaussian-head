@@ -34,3 +34,13 @@ python render.py -m path/to/pre-trained/model
 
 ## Citation
 If anything useful, please cite as:
+```
+@misc{wang2023gaussianhead,
+      title={GaussianHead: Impressive 3D Gaussian-based Head Avatars with Dynamic Hybrid Neural Field}, 
+      author={Jie Wang and Xianyan Li and Jiucheng Xie and Feng Xu and Hao Gao},
+      year={2023},
+      eprint={2312.01632},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
