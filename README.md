@@ -1,7 +1,7 @@
 # GaussianHead: Impressive 3D Gaussian-based Head Avatars with Dynamic Hybrid Neural Field
 ### | arXiv [Paper](https://arxiv.org/abs/2312.01632) is not a complete version | [Project Page]() 
 Code will arrive after everything is ready...
-![](assets/overview.png)
+![](assets/teaser.png)
 
 ## Riemannian ADAM
 The [geoopt](https://github.com/geoopt/geoopt) library is necessary for the Riemannian ADAM optimizer. Please refer to [here](https://github.com/geoopt/geoopt) to download it, and please consider citing '*Riemannian Adaptive Optimization Methods*' in ICLR2019 if used.
