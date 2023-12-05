@@ -1,5 +1,5 @@
 # GaussianHead: Impressive 3D Gaussian-based Head Avatars with Dynamic Hybrid Neural Field
-### [Paper]() | [Project Page]() 
+### | arXiv [Paper](https://arxiv.org/abs/2312.01632) is not a complete version | [Project Page]() 
 Code will arrive after everything is ready...
 ![](assets/overview.png)
 
