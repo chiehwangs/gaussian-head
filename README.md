@@ -1,13 +1,13 @@
 # GaussianHead: Impressive Head Avatars with Learnable Gaussian Diffusion
 ### | [Complete Version arXiv](http://arxiv.org/abs/2312.01632) | [Project Page]() |
-Code will arrive within 30 days (Written on December 13, 2023)......
 ![](assets/teaser.png)
 
 TODO:
->- [x] Uploaded the dataset and pre-trained model weights. (12.19,2023)
+>- [x] Uploaded the dataset and pre-trained model weights. (12.19, 2023)
 >- [x] Update complete version arXiv paper, if you are interested, please refer to. (12.29, 2023)
+>- [x] Release code. (1.3, 2024)
 >- [ ] Update project page.
->- [ ] Release code.
+
 
 
 ## Getting Started
@@ -39,7 +39,7 @@ GaussianHead
 ## Pre-trained Model
 Click [here](https://drive.google.com/file/d/13SjlhQ7MOONPUenJHbqwdGJoGeU2Arz6/view?usp=sharing) to download the id1 pre-trained model (training on RTX 2080ti) to quickly view the results, and store the training model according to `./GaussianHead/output/id1`
 
-## Training
+## Training[Not yet]
 Store the training data according to the format and cd to `./GaussianHead`, run:
 ```
 python ./train.py -s ./data/${id} -m ./output/${id} --eval
