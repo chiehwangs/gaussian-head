@@ -26,7 +26,7 @@ All our data is sourced from publicly available datasets [NeRFBlendShape](https:
 Download [our modified datasets](https://drive.google.com/file/d/1vriFnMGsXPVTWRsHQ37SmMNZxU17nICT/view?usp=sharing) for train and render, store it in the following directory.
 
 ```
-GaussianHead
+gaussian-head
     ├── data
        ├── id1
            ├── ori_imgs    # rgb frames
@@ -37,16 +37,16 @@ GaussianHead
 ```
 
 ## Pre-trained Model
-Click [here](https://drive.google.com/file/d/13SjlhQ7MOONPUenJHbqwdGJoGeU2Arz6/view?usp=sharing) to download the id1 pre-trained model (training on RTX 2080ti) to quickly view the results, and store the training model according to `./GaussianHead/output/id1`
+Download the [id1 pre-trained model](https://drive.google.com/file/d/13SjlhQ7MOONPUenJHbqwdGJoGeU2Arz6/view?usp=sharing) (training on RTX 2080ti) to quickly view the results, and store the training model according to `./gaussian-head/output/id1`
 
-## Training[Not yet]
-Store the training data according to the format and cd to `./GaussianHead`, run:
+## Training[soon...]
+Store the training data according to the format and cd to `./gaussian-head`, run:
 ```
 python ./train.py -s ./data/${id} -m ./output/${id} --eval
 ```
 
 ## Rendering
-Use your own trained model or the pre-trained model we provide, cd to `./GaussianHead` and run next command, output results will save in `./GaussianHead/output/id1/test`
+Use your own trained model or the pre-trained model we provide, cd to `./GaussianHead` and run next command, output results will save in `./gaussian-head/output/id1/test`
 ```
 python render.py -m ./output/${id}
 ```
