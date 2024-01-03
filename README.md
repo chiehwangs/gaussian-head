@@ -33,7 +33,7 @@ GaussianHead
            ├── mask    # binary masks
            └── transforms.json    # camera params and expressions
        ├── id2
-           ...
+           ......
 ```
 
 ## Pre-trained Model
