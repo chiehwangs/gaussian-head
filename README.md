@@ -46,7 +46,7 @@ python ./train.py -s ./data/${id} -m ./output/${id} --eval
 ```
 
 ## Rendering
-Use your own trained model or the pre-trained model we provide, cd to `./GaussianHead` and run next command, output results will save in `./gaussian-head/output/id1/test`
+Use your own trained model or the pre-trained model we provide, cd to `./gaussian-head` and run next command, output results will save in `./gaussian-head/output/id1/test`
 ```
 python render.py -m ./output/${id}
 ```
@@ -57,7 +57,7 @@ python render.py -m ./output/${id}
 >- Set `--only_head` will only perform head training and rendering. Before this, face_parsing needs to be performed to obtain the segmentation, this can be easily obtained at [NeRFBlendShape](https://drive.google.com/drive/folders/1OiUvo7vHekVpy67Nuxnh3EuJQo7hlSq1?usp=sharing);
 
 ## Citation
-If anything useful, please cite as:
+If anything useful, a star is best and please cite as:
 ```
 @misc{wang2023gaussianhead,
       title={GaussianHead: Impressive Head Avatars with Learnable Gaussian Diffusion}, 
