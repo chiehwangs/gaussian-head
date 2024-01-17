@@ -25,18 +25,14 @@ def grid_sample_wrapper(grid: torch.Tensor, coords: torch.Tensor, feature_dim , 
 
     coords = coords.view([coords.shape[0]] + [1] * (grid_dim - 1) + list(coords.shape[1:]))  
     
-    interp_f = 1.
-    for i in range(trans_num):
-        interp_grid = grid[:, i*feature_dim:(i+1)*feature_dim, :, :]
-        B, feature_dim = interp_grid.shape[:2]
-        n = coords.shape[-2]
-        interp = grid_sampler(
-            interp_grid,  
-            coords, 
-            align_corners=align_corners,
-            mode='bilinear', padding_mode='border')  
-        
-        interp_f *= interp  
+    interp_grid = grid[:, (trans_num-1)*feature_dim:(trans_num)*feature_dim, :, :]
+    B, feature_dim = interp_grid.shape[:2]
+    n = coords.shape[-2]
+    interp = grid_sampler(
+        interp_grid,  
+        coords, 
+        align_corners=align_corners,
+        mode='bilinear', padding_mode='border')  
 
     interp = interp.view(B, feature_dim, n).transpose(-1, -2)  
     interp = interp.squeeze()  
