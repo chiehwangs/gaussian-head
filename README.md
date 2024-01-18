@@ -1,4 +1,4 @@
-# GaussianHead: Impressive Head Avatars with Learnable Gaussian Diffusion
+# GaussianHead: High-fidelity Head Avatars with Learnable Gaussian Derivation
 ### | [arXiv](http://arxiv.org/abs/2312.01632) | [Project Page](https://chiehwangs.github.io/gaussian-head-page/) |
 ![](assets/teaser.png)
 
