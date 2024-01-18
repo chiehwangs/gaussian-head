@@ -1,12 +1,6 @@
 # GaussianHead: Impressive Head Avatars with Learnable Gaussian Diffusion
-### | [Complete Version arXiv](http://arxiv.org/abs/2312.01632) | [Project Page]() |
+### | [arXiv](http://arxiv.org/abs/2312.01632) | [Project Page](https://chiehwangs.github.io/gaussian-head-page/) |
 ![](assets/teaser.png)
-
-TODO:
->- [x] Uploaded the dataset and pre-trained model weights. (12.19, 2023)
->- [x] Update complete version arXiv paper, if you are interested, please refer to. (12.29, 2023)
->- [x] Release code. (1.3, 2024)
->- [ ] Update project page.
 
 
 
