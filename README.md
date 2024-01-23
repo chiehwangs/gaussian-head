@@ -1,5 +1,5 @@
 # GaussianHead: High-fidelity Head Avatars with Learnable Gaussian Derivation
-### | [arXiv](http://arxiv.org/abs/2312.01632) | [Project Page](https://chiehwangs.github.io/gaussian-head-page/) |
+### | [arXiv](https://arxiv.org/pdf/2312.01632.pdf) | [Project Page](https://chiehwangs.github.io/gaussian-head-page/) |
 ![](assets/teaser.png)
 
 
@@ -53,12 +53,13 @@ python render.py -m ./output/${id}
 ## Citation
 If anything useful, a star is best and please cite as:
 ```
-@misc{wang2023gaussianhead,
-      title={GaussianHead: Impressive Head Avatars with Learnable Gaussian Diffusion}, 
+@misc{wang2024gaussianhead,
+      title={GaussianHead: High-fidelity Head Avatars with Learnable Gaussian Derivation}, 
       author={Jie Wang and Jiu-Cheng Xie and Xianyan Li and Feng Xu and Chi-Man Pun and Hao Gao},
-      year={2023},
+      year={2024},
       eprint={2312.01632},
       archivePrefix={arXiv},
       primaryClass={cs.CV}
+}
 }
 ```
