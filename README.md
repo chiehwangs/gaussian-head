@@ -1,6 +1,6 @@
 # GaussianHead: High-fidelity Head Avatars with Learnable Gaussian Derivation
 ### | [arXiv](https://arxiv.org/pdf/2312.01632.pdf) | [Project Page](https://chiehwangs.github.io/gaussian-head-page/) |
-![](assets/teaser.png)
+![](assets/teaser-v2.png)
 
 
 
