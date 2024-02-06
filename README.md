@@ -61,5 +61,4 @@ If anything useful, a star is best and please cite as:
       archivePrefix={arXiv},
       primaryClass={cs.CV}
 }
-}
 ```
