@@ -31,7 +31,7 @@ gaussian-head
 ```
 
 ## Pre-trained Model
-Download the [id1 pre-trained model](https://drive.google.com/file/d/13SjlhQ7MOONPUenJHbqwdGJoGeU2Arz6/view?usp=sharing) (training on RTX 2080ti) to quickly view the results, and store the training model according to `./gaussian-head/output/id1`
+Download the [id1 pre-trained model](https://drive.google.com/file/d/1VV3Ru27KcP29DgvcZzGd5e28AyjiRPcZ/view?usp=sharing) (training on RTX 2080ti) to quickly view the results, and store the training model according to `./gaussian-head/output/id1`
 
 ## Training[soon...]
 Store the training data according to the format and cd to `./gaussian-head`, run:
