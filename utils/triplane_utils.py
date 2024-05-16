@@ -103,7 +103,7 @@ class TriPlaneNetwork(nn.Module):
         self.in_dim = in_dim  
         self.out_dim = out_dim  
         self.base_resolution = resolution  
-        self.multi_scale_res = [1,2,4,8]
+        self.multi_scale_res = [1]
         self.concat_feature = False
         self.warm_up = warm_up
 
