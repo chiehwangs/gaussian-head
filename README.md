@@ -15,7 +15,7 @@
 Please refer to [here](https://github.com/geoopt/geoopt) to download it, and please consider citing '*Riemannian Adaptive Optimization Methods*' in ICLR2019 if used.
 
 ## Preparing Dataset
-All our data is sourced from publicly available datasets. 
+All our data is sourced from publicly available datasets. To create your custom datasets, try using [AD-NeRF](https://github.com/YudongGuo/AD-NeRF#train-ad-nerf); it works well.
 
 Download [our datasets](https://drive.google.com/file/d/1vriFnMGsXPVTWRsHQ37SmMNZxU17nICT/view?usp=sharing) for train and render, store it in the following directory.
 
