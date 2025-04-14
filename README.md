@@ -1,7 +1,6 @@
-# GaussianHead: High-fidelity Head Avatars with Learnable Gaussian Derivation
+# GaussianHead: High-fidelity Head Avatars with Learnable Gaussian Derivation [TVCG 2025]
 ### | [Paper](http://arxiv.org/abs/2312.01632) | [Project Page](https://chiehwangs.github.io/gaussian-head-page/) |
 ![](assets/teaser-v2.png)
-
 
 
 ## Getting Started
