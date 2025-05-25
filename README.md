@@ -32,7 +32,7 @@ gaussian-head
 ## Pre-trained Model
 Download the [id1 pre-trained model](https://drive.google.com/file/d/1VV3Ru27KcP29DgvcZzGd5e28AyjiRPcZ/view?usp=sharing) (training on RTX 2080ti) to quickly view the results, and store the training model according to `./gaussian-head/output/id1`
 
-## Training[soon...]
+## Training[available]
 Store the training data according to the format and cd to `./gaussian-head`, run:
 ```
 python ./train.py -s ./data/${id} -m ./output/${id} --eval
@@ -50,14 +50,13 @@ python render.py -m ./output/${id}
 >- Set `--only_head` will only perform head training and rendering. Before this, face_parsing needs to be performed to obtain the segmentation, this can be easily obtained at [here](https://drive.google.com/drive/folders/1OiUvo7vHekVpy67Nuxnh3EuJQo7hlSq1?usp=sharing);
 
 ## Citation
-If anything useful, a star is best and please cite as:
+If anything useful, please cite as:
 ```
 @misc{wang2024gaussianhead,
       title={GaussianHead: High-fidelity Head Avatars with Learnable Gaussian Derivation}, 
       author={Jie Wang and Jiu-Cheng Xie and Xianyan Li and Feng Xu and Chi-Man Pun and Hao Gao},
-      year={2024},
-      eprint={2312.01632},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+      year={2025},
+      journal={IEEE Transactions on Visualization and Computer Graphics},
+      doi={10.1109/TVCG.2025.3561794}
 }
 ```
